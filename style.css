@@ -1,0 +1,38 @@
+div {
+    padding: 2.5%;
+    margin-left: 0;
+    align-items: center;
+    position: relative;
+}
+body {
+    /* FILL IN HERE */
+    color: black;
+    padding: 15%;
+}
+
+label {
+    padding-right: 10px;
+}
+
+button {
+    /* FILL IN HERE */
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.mainpage {
+    /* FILL IN HERE */
+    margin-top: 20%;
+    margin-right: 20%;
+}
+
+.query-form {
+    position: relative;
+    margin-top: 50px;
+}
+
+.form-inputs {
+    margin-top: 15px;
+    position: relative;
+    align-items: center;
+}

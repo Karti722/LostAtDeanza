@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO: Fill out body to build out compenents on our website -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        Line 15 and 16 (next 2 lines) link style.css and main.js with index.html. 
+        Think of is as style and functionality being invited ivited in to the same room as index.html.
+        And the html can accress the look and tools it's components need to function. 
+    -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Lost at De Anza</title>
+
+</head>
+
+<body background="background.jpeg">
+    <!-- FILL IN HERE -->
+    <div class="mainpage" style="background-color: gray;">
+        <h1>Welcome to the Lost at De Anza Queue</h1>
+        <h4>Welcome everyone! we will get back to you shortly about your last item!</h4>
+        
+        <form class = "query-form">
+            <div class="form-inputs">
+                <label>Name:</label>
+                <input type="text" id="name" placeholder="First and Last name">
+            </div>
+
+            <div class="form-inputs">
+                <label>Location:</label>
+                <input type="text" id="location" placeholder="Main Quad">
+            </div>
+
+            <div class="form-inputs">
+                <label>Item:</label>
+                <input type="text" id="item" placeholder="Purse/Wallet">
+            </div>
+
+            <div class="form-inputs">
+                <label>Description:</label>
+                <input type="text" id="incident" placeholder="Incident">
+            </div>
+            <button type = "submit" onclick="submission_confirmation()">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
