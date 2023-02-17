@@ -3,7 +3,7 @@ function submission_confirmation() {
     var location = document.getElementById("location").value;
     var incident = document.getElementById("incident").value;
 //     If any items are left blank after submitting
-    if (name == "" || location == "" || incident == "" || ) {
+    if (name == "" || location == "" || incident == "") {
         alert("All items must be filled in");
         return;
     }
